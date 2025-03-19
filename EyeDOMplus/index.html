@@ -2,24 +2,20 @@
 <html lang="ko">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>아이돔+(eyeDOM+)</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>아이돔+(eyeDOM+)</title>
+  <link rel="stylesheet" href="style.css" />
+  <script src="main.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@tensorflow/tfjs@latest/dist/tf.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@teachablemachine/image@latest/dist/teachablemachine-image.min.js"></script>
+  <script type="text/javascript"></script>
 </head>
-
 <body>
-    <div class="overlay" id="loading">
-        <div>아이돔+(eyeDOM+)<br>로딩 중.. 웹캠을 연결 중입니다.</div>
-    </div>
-    <div id="webcam-container"></div>
-    <div id="label-container"></div>
-
-    <link rel="stylesheet" href="style.css" />
-    <script src="main.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/@tensorflow/tfjs@latest/dist/tf.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/@teachablemachine/image@latest/dist/teachablemachine-image.min.js"></script>
-    <script type="text/javascript"></script>
-
+<div class="overlay" id="loading">
+  <div>아이돔+(eyeDOM+)<br>로딩 중.. 웹캠을 연결 중입니다.</div>
+</div>
+<div id="webcam-container"></div>
+<div id="label-container"></div>
 </body>
-
 </html>
